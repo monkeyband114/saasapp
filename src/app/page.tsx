@@ -29,10 +29,14 @@ export default function Home() {
         Get Started <ArrowRight className="ml-2 h-5 w-5"/>
       </Link>
     </MaxWidthWrapper>
-    {/* vlue section  */}
+    {/* value section  */}
     <div>
       <div className="relative isolate">
-        
+        <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+          <div className="relatve-left">
+
+          </div>
+        </div>
       </div>
     </div>
     </>
